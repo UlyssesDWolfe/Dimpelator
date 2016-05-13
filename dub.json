@@ -1,0 +1,24 @@
+{
+	"copyright": "Copyright © 2016, Ulysses D. Wolfe",
+	"name": "impedance-calc",
+	"description": "Calculates the impedances of Microstrip and Stripline PCB traces",
+	"authors": ["Ulysses D. Wolfe"],
+	"homepage": "",
+	"license": "Proprietary",
+        "buildTypes":{
+            "debug":{
+                "buildOptions":["debugMode", "debugInfo", "optimize"]
+            },
+            "custom-profile":{
+                "buildOptions":["releaseMode", "optimize", "inline"]
+            }
+        },
+        "targetName":"ic-bin",
+        "targetType":"executable",
+        "targetPath":"bin",
+        "sourcePaths":["source"],
+        "dependencies":{
+            "json": "~>0.1.0"
+        }
+
+}

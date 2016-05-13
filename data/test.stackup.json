@@ -1,0 +1,119 @@
+{
+    "Stackup":{
+        "Name":"04-PD125.100",
+        "Units":"metric",
+        "Layers":{
+            "01":{
+                "Name":"Top Solder Mask",
+                "Type":"Solder Mask",
+                "Material":"Surface Material",
+                "Width":"0.01016",
+                "Colour":"Red"
+            },
+            "02":{
+                "Name":"Top",
+                "Type":"Signal",
+                "Material":"Copper",
+                "Width":"0.018"
+            },
+            "03":{
+                "Name":"Dielectric 1",
+                "Type":"Dielectric",
+                "Material":"Prepreg",
+                "Width":"0.068",
+                "Permittivity":"4.2"
+            },
+            "04":{
+                "Name":"Internal Plane 1",
+                "Type":"Plane",
+                "Material":"Copper",
+                "Width":"0.0355"
+            },
+            "05":{
+                "Name":"Dielectric 2",
+                "Type":"Dielectric",
+                "Material":"Core",
+                "Width":"0.076",
+                "Permittivity":"4.2"
+            },
+            "06":{
+                "Name":"Mid1",
+                "Type":"Signal",
+                "Material":"Copper",
+                "Width":"0.0355"
+            },
+            "07":{
+                "Name":"Dielectric 3",
+                "Type":"Dielectric",
+                "Material":"Prepreg",
+                "Width":"0.254",
+                "Permittivity":"4.2"
+            },
+            "08":{
+                "Name":"Mid2",
+                "Type":"Signal",
+                "Material":"Copper",
+                "Width":"0.0355"
+            },
+            "09":{
+                "Name":"Dielectric 4",
+                "Type":"Dielectric",
+                "Material":"Core",
+                "Width":"0.127",
+                "Permittivity":"4.2"
+            },
+            "10":{
+                "Name":"Mid3",
+                "Type":"Signal",
+                "Material":"Copper",
+                "Width":"0.0355"
+            },
+            "11":{
+                "Name":"Dielectric 5",
+                "Type":"Dielectric",
+                "Material":"Prepreg",
+                "Width":"0.127",
+                "Permittivity":"4.2"
+            },
+            "12":{
+                "Name":"Mid4",
+                "Type":"Signal",
+                "Material":"Copper",
+                "Width":"0.0355"
+            },
+            "13":{
+                "Name":"Dielectric 6",
+                "Type":"Dielectric",
+                "Material":"Core",
+                "Width":"0.127",
+                "Permittivity":"4.2"
+            },
+            "14":{
+                "Name":"Internal Plane 2",
+                "Type":"Plane",
+                "Material":"Copper",
+                "Width":"0.0355"
+            },
+            "15":{
+                "Name":"Dielectric 7",
+                "Type":"Dielectric",
+                "Material":"Prepreg",
+                "Width":"0.127",
+                "Permittivity":"4.2"
+            },
+            "16":{
+                "Name":"Bottom",
+                "Type":"Signal",
+                "Material":"Copper",
+                "Width":"0.018"
+            },
+            "17":{
+                "Name":"Bottom Solder Mask",
+                "Type":"Solder Mask",
+                "Material":"Surface Material",
+                "Width":"0.01016",
+                "Colour":"Red"
+            }
+        }
+    }
+}
